@@ -16,7 +16,7 @@ This bash script automates the creation and management of Cloudflare tunnels for
 ## Prerequisites
 
 * **Cloudflare Account:** You'll need a Cloudflare account and a domain registered with Cloudflare.
-* **Cloudflared:** Install the `cloudflared` command-line tool. You can download it from the [Cloudflare website](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/download-cloudflared/).
+* **Cloudflared:** Install the `cloudflared` command-line tool. You can download it from the [Cloudflare website](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/downloads/).
 * **Cloudflare Origin Certificate:** Authenticate with Cloudflare and download the origin certificate. This typically resides in `~/.cloudflared/cert.pem`. You can obtain the certificate using: `cloudflared tunnel login`.
 
 ## Usage
